@@ -1,0 +1,26 @@
+{
+    "name": "rundum/simple-password-generator",
+    "description": "Simple password generator",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hendrik Pilz",
+            "email": "pilz@rundum.digital"
+        }
+    ],
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Rundum\\": "src/"
+        }
+    }
+}
