@@ -13,7 +13,7 @@ class SimplePasswordGenerator {
      * @return string
      */
     public static function randomAuthKey(): string {
-        return $this->randomPassword(32, false, false);
+        return self::randomPassword(32, false, false);
     }
 
     /**
